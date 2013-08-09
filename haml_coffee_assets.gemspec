@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'coffee-script', '>= 1.0.0'
   s.add_runtime_dependency 'tilt', '>= 1.3.3'
-  s.add_runtime_dependency 'sprockets', '>= 2.0.3'
+  s.add_runtime_dependency 'sprockets_rails3_backport'
 
   s.add_development_dependency 'bundler'
 end
